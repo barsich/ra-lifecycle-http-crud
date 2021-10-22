@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px auto;
+  width: 700px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.notes {
+  width: 100%;
+}
+
+.notes-form {
+  margin-bottom: 10px;
+}
+
+.notes-form__textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  resize: none;
+}
+
+.notes-form__submit,
+.notes-form__update {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.notes__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.notes-list__item {
+  display: flex;
+  max-width: 300px;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 3px;
+}
